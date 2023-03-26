@@ -1,0 +1,87 @@
+/* Part of TICTACTOE game
+ * Author: Adam Beehler
+ * Version Date: March 4th, 2023
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #3cbde1;
+    --winning-blocks: #196519;
+}
+
+body {
+    color: var(--blue);
+    font-family: 'Finger Paint', cursive;
+}
+
+h1 {
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+.container{
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #37505c;
+}
+
+#gameboard {
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box {
+    height: 125px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue);
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+/* Removes the right border line for 
+each of the boxes on the right side.
+3n means the 3rd box of each row. */
+.box:nth-child(3n) {
+    border-right: none;
+}
+
+/* Removes the bottom border line for
+each of the boxes on the bottom.
+Removes for every box after the 6th box. */
+.box:nth-child(6) ~ .box {
+    border-bottom: none;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--blue);
+    color: black;
+    border-color: var(--blue);
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+}
+
+/* Create small animation for when
+the user hovers over the buttom. */
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    background-color: beige;
+    border-color: beige;
+}
