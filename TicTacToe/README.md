@@ -10,6 +10,8 @@
 -------------------------------------
 - The program accepts mouse interaction (touchscreen may work)
 
+- Game plays on a web page via Google Chrome (other web browsers may work)
+
 - Run using a live server on Visual Studio Code (other IDEs may work)
 ----------------------------------------------------------------------------------
 
