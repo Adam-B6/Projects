@@ -1,4 +1,4 @@
-## TICTACTOE v1.0.0 2023-03-25
+### TICTACTOE v1.0.0 2023-03-25
 
 ## Contact Information
 --------------------
