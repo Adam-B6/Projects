@@ -1,9 +1,9 @@
-TICTACTOC v1.0.0 2023-03-25
+#TICTACTOC v1.0.0 2023-03-25
 
-Contact Information
+##Contact Information
 --------------------
-Author: Adam Beehler
-**E-mail: abeehler100@gmail.com**
+###Author: Adam Beehler
+###E-mail: abeehler100@gmail.com
 ----------------------------------------
 
 DESCRIPTION AND GENERAL USAGE NOTES
