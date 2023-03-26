@@ -1,15 +1,9 @@
-### Hi there 👋
-- 🔭 I’m currently working on projects
-- 🌱 I’m inscreasing my knowledge in programming every day 
-- 🤔 I’m open for help with my work
-- ⚡ Fun fact: I love staying fit
+# TICTACTOE v1.0.0 2023-03-25
 
-#TICTACTOC v1.0.0 2023-03-25
-
-##Contact Information
+## Contact Information
 --------------------
-###Author: Adam Beehler
-###E-mail: abeehler100@gmail.com
+### Author: Adam Beehler
+### E-mail: abeehler100@gmail.com
 ----------------------------------------
 
 DESCRIPTION AND GENERAL USAGE NOTES
