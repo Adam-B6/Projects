@@ -17,7 +17,7 @@
 
 ## Installation process
 ----------------------
-1. Ensure the most up to date versions of Java is installed on your PC.
+1. Ensure the most up to date version of Java is installed on your PC.
 2. Download program through the Zuul folder and save to it where it's easily accessible.
 3. Ensure that all files maintain stored within the same folder as the program.
 ---------------------------------------------------------------------------------------------------------
